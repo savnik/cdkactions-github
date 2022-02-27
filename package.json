@@ -2,7 +2,7 @@
   "name": "cdkactions-github",
   "version": "1.0.0",
   "description": "A Package for most common jobs/steps in cdkactions",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p src",
     "test": "echo \"Error: no test specified\" && exit 1"
