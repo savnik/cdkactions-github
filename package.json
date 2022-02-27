@@ -1,0 +1,35 @@
+{
+  "name": "cdkactions-github",
+  "version": "1.0.0",
+  "description": "A Package for most common jobs/steps in cdkactions",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savnik/cdkactions-github.git"
+  },
+  "keywords": [
+    "Github",
+    "Actions",
+    "CDK"
+  ],
+  "author": "Peter Savnik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/savnik/cdkactions-github/issues"
+  },
+  "homepage": "https://github.com/savnik/cdkactions-github#readme",
+  "dependencies": {
+    "cdkactions": "^0.2.3",
+    "ts-dedent": "^2.2.0"
+  },
+  "engines": {
+    "node": ">= 12.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
